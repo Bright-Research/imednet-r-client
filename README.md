@@ -1,4 +1,4 @@
-# R API client for openapi
+# R API client for iMednet
 
 The Mednet EDC (Electronic Data Capture) REST API provides a single-point of access for reading data stored across iMednet data services.
 This specification documents all available endpoints in the latest version of the API.
