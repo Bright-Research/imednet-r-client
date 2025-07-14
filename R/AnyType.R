@@ -1,3 +1,10 @@
+#' AnyType Class
+#'
+#' Generic container for flexible JSON objects used in the API.
+#' @docType class
+#' @title AnyType
+#' @description Represents an arbitrary object with key/value pairs.
+#' @export
 AnyType <- R6::R6Class(
   "AnyType",
   public = list(
