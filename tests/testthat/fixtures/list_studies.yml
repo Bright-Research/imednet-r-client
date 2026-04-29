@@ -1,0 +1,21 @@
+http_interactions:
+- request:
+    method: GET
+    uri: https://edc.prod.imednetapi.com/api/v1/edc/studies?page=0&size=25
+  response:
+    status: 403
+    headers:
+      content-type: application/json
+      content-length: '23'
+      date: Wed, 29 Apr 2026 20:19:11 GMT
+      x-amz-apigw-id: cmUl8GYtIAMEg4Q=
+      x-amzn-requestid: 025a089a-0acb-459a-bb77-fac26d3ce9fd
+      x-amzn-errortype: ForbiddenException
+      x-cache: Error from cloudfront
+      via: 1.1 c8eaab496487afbdb9029903afd8f5b2.cloudfront.net (CloudFront)
+      x-amz-cf-pop: DEN53-P4
+      x-amz-cf-id: KBulXxKgG13E021ZfUBJLEdo3G6o3I8vGhPrPl96x3sOvWP9Gwc1IA==
+    body:
+      string: '{"message":"Forbidden"}'
+  recorded_at: 2026-04-29 20:19:11
+recorded_with: VCR-vcr/2.1.0

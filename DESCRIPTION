@@ -10,6 +10,8 @@ Depends: R (>= 3.3)
 Encoding: UTF-8
 License: MIT + file LICENSE
 LazyData: true
-Suggests: testthat
+Suggests: testthat,
+    vcr,
+    webmockr
 Imports: jsonlite, httr, R6, base64enc, stringr
 RoxygenNote: 7.3.2
