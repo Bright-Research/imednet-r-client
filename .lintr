@@ -4,4 +4,6 @@ linters: linters_with_defaults(
    cyclocomp_linter = NULL
  )
 exclusions: list(
+   "R",
+   "tests"
  )
