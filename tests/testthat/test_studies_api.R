@@ -15,6 +15,7 @@ test_that("ListStudies", {
   # @param filter character Optional filter criteria to apply, in the format `attribute==value` with support for >, >=, <, <=, !=. Multiple criteria can be combined with `;` (AND) or `,` (OR). (optional)
   # @return [StudyList]
 
-  # uncomment below to test the operation
-  #expect_equal(result, "EXPECTED_RESULT")
+  vcr::use_cassette("list_studies", {
+    expect_error(api_instance$ListStudies())
+  })
 })
